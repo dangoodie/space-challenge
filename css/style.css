@@ -60,7 +60,7 @@ nav {
     display: inline-block;
     position: absolute;
     right: 0;
-    margin-top: 15px;
+    top: 35px;
     padding-right: 10%;
     padding-left: 5%;
     padding-top: 0;
@@ -107,7 +107,8 @@ ul {
 
 .logo {
     display: inline-block;
-    padding: 30px;
+    position: absolute;
+    margin: 50px;
     z-index: 10;
 }
 
@@ -118,28 +119,19 @@ ul {
     position: absolute;
     display: inline-block;
     width: 45%;
-    top: 70px;
+    top: 73px;
     left: 150px;
-    z-index: 10;
+    z-index: 0;
 }
-
-.box {
-
-}
-
 
 body {
     font-family: 'Barlow', sans-serif;
-    color: #fff;
+    color: #d0d6f9;
     background-color: #0b0d17;
 }
 
 html, body {
     margin: 0;
     height: 100%;
-}
-
-html {
-    padding: 1rem;
 }
 

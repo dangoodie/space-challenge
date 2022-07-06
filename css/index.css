@@ -3,3 +3,30 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+.box {
+    width: 420px;
+    position: absolute;
+    display: inline-block;
+    left: 50px;
+    bottom: 100px;
+}
+
+button {
+    display: inline-block;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+
+.box h1 {
+    margin: 0;
+}
+
+.box h5 {
+    margin-bottom: 30px;
+}
+
+.box p {
+    line-height: 2;
+}
