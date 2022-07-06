@@ -118,7 +118,7 @@ ul {
     opacity: 0.2;
     position: absolute;
     display: inline-block;
-    width: 45%;
+    width: 100%;
     top: 73px;
     left: 150px;
     z-index: 0;
