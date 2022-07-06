@@ -22,15 +22,19 @@ body {
 
 }
 
-.btn a {
-    background-color: white;
+#btn-link {
+    background: white;
     display: block;
-    border: none;
     text-decoration: none;
     height: 300px;
     width: 300px;
-    border-radius: 150px;
+    border-radius: 50%;
 ;
+}
+
+#btn-link:hover {
+    box-shadow: 0 0 0 80px rgba(255, 255, 255, 0.1);
+
 }
 
 .btn-text {
